@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}<title>Overviewer Admin</title>{% endblock %}
+
+{% block extra_css %}
+    <link href='/static/css/base.css' rel='stylesheet' type='text/css' />
+{% endblock %}
+
+
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <h2>Overviewer Admin</h2>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-lg btn-success biggerbutton tiny-margin">
+                            Scan Directories
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-lg btn-danger biggerbutton tiny-margin">
+                            Shutdown
+                        </button>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+{% endblock %}
